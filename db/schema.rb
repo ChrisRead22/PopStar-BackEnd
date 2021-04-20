@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_19_211622) do
+ActiveRecord::Schema.define(version: 2021_04_20_201302) do
 
   create_table "items", force: :cascade do |t|
     t.integer "user_id", null: false
@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 2021_04_19_211622) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.string "password"
+    t.string "password_digest"
     t.string "email"
     t.integer "creditCard"
     t.integer "creditCardSec"
