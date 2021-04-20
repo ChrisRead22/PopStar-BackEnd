@@ -53,5 +53,13 @@ Item4 = Item.create(
     description: "Shiny blue version of the Dark Knight exclusive from SDCC/Toy Tokyo in 2017"
 )
 
+Item5 = Item.create(
+    user_id: 2,
+    name: "Amazing Spider-Man #10",
+    image: "https://s3.amazonaws.com/www.covernk.com/Covers/L/A/Amazing+Spider-Man+1963+series/AmazingSpider-Man1963Series10.jpg",
+    price: 5000,
+    description: "#10 issue of the Amazing Spider-Man in mint condition"
+)
+
 
 puts "Seeded"
