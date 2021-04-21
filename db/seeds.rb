@@ -21,6 +21,7 @@ User2 = User.create(
 
 
 
+
 Item1 = Item.create(
     user_id: 1,
     name: "Superman #1",
@@ -46,7 +47,7 @@ Item3 = Item.create(
 )
 
 Item4 = Item.create(
-    user_id: 1,
+    user_id: 2,
     name: "Blue Chrome Batman",
     image: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2018/07/dc_sdcc_2017_toy_toky_metallic_blue_batman_funko_pop_144.jpg?q=50&fit=crop&w=963&h=687&dpr=1.5",
     price: 470,
@@ -54,12 +55,59 @@ Item4 = Item.create(
 )
 
 Item5 = Item.create(
-    user_id: 2,
+    user_id: 1,
     name: "Amazing Spider-Man #10",
     image: "https://s3.amazonaws.com/www.covernk.com/Covers/L/A/Amazing+Spider-Man+1963+series/AmazingSpider-Man1963Series10.jpg",
     price: 5000,
     description: "#10 issue of the Amazing Spider-Man in mint condition"
 )
+
+Item6 = Item.create(
+    user_id: 2,
+    name: "Danger Girl Vol. 1 #2 Comic 1998",
+    image: "https://images-na.ssl-images-amazon.com/images/I/51dagby2jIL._SX322_BO1,204,203,200_.jpg",
+    price: 4000,
+    description: "Danger Girl Vol. 1 #2 Comic released by Image Cliffhanger in 1998."
+)
+
+Item7 = Item.create(
+    user_id: 1,
+    name: "Danger Girl Vol. 1 #2 Comic",
+    image: "https://comicvine1.cbsistatic.com/uploads/scale_small/2/24477/2293538-dgr.jpg",
+    price: 4500,
+    description: "A top secret, covert combat force consisting of the best female operatives in the world."
+)
+
+Item8 = Item.create(
+    user_id: 2,
+    name: "Danger Girl Viva Las Danger (2004) ",
+    image: "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/914063.jpg",
+    price: 5500,
+    description: "The creative team that brought you DANGER GIRL: HAWAIIAN PUNCH is back - and this time they're sending Abbey Chase and her fellow Danger Girls on vacation again.to Sin City! "
+)
+
+Item9 = Item.create(
+    user_id: 1,
+    name: "Danger Girl #2 Ruby Red Smoking Gun Red foil logo Variant (1998) ",
+    image: "https://recalledcomics.com/DangerGirl2RubyRed.jpg",
+    price: 5500,
+    description: "The creative team that brought you DANGER GIRL: HAWAIIAN PUNCH is back - and this time they're sending Abbey Chase and her fellow Danger Girls on vacation again.to Sin City! "
+)
+
+
+#Items
+# def items
+#     #url = 'https://api.artic.edu/api/v1/exhibitions?limit=35'
+#     res = RestClient.get(url)
+#     JSON.parse(res)
+# end
+
+# items["data"].each do |item|
+#         puts item
+        # Item.create(bla bla bla bla )
+# end 
+
+
 
 
 puts "Seeded"
