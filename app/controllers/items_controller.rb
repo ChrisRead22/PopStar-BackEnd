@@ -25,7 +25,7 @@ class ItemsController < ApplicationController
     end
 
     def update
-        item = item.find(params[:id])
+        item = Item.find(params[:id])
         item.update(item_params)
         render json: item
     end
@@ -39,7 +39,7 @@ class ItemsController < ApplicationController
     private
 
     def item_params
-        params.require(:item).permit(:name, :price, :image, :description)
+        params.require(:item).permit(:name, :price, :image, :description,:user_id)
     end
 
 end
