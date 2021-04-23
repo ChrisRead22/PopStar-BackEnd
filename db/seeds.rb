@@ -94,7 +94,49 @@ Item9 = Item.create(
     description: "The creative team that brought you DANGER GIRL: HAWAIIAN PUNCH is back - and this time they're sending Abbey Chase and her fellow Danger Girls on vacation again.to Sin City! "
 )
 
+Item10 = Item.create(
+    user_id: 1,
+    name: "Kill La Kill Vol.1 Hardcover Foil",
+    image: "https://cdn.shopify.com/s/files/1/1380/9875/products/IMG_5327_original_1024x1024.JPG?v=1509344916",
+    price: 650,
+    description: "Super Rare Hardcover foil of Kill La Kill Volume 1"
+)
+Item11 = Item.create(
+    user_id: 1,
+    name: "Danger Girl Viva Las Danger (2004) ",
+    image: "https://d1466nnw0ex81e.cloudfront.net/n_iv/600/914063.jpg",
+    price: 5500,
+    description: "The creative team that brought you DANGER GIRL: HAWAIIAN PUNCH is back - and this time they're sending Abbey Chase and her fellow Danger Girls on vacation again.to Sin City! "
+)
+Item12 = Item.create(
+    user_id: 1,
+    name: "Danger Girl #2 Ruby Red Smoking Gun (1998) ",
+    image: "https://recalledcomics.com/DangerGirl2RubyRed.jpg",
+    price: 5500,
+    description: "Original #2 comic for Danger Girl, Red variant"
+)
+Item13 = Item.create(
+    user_id: 1,
+    name: "Silver Batman",
+    image: "https://static3.thegamerimages.com/wordpress/wp-content/uploads/2018/07/batman-2.jpg?q=50&fit=crop&w=740&h=493&dpr=1.5",
+    price: 1600,
+    description: "Special Edition Batman only given to Hot Topic Employees in 2015"
+)
 
+Item14 = Item.create(
+    user_id: 1,
+    name: "Purple Haze(Metallic)",
+    image: "https://static2.cbrimages.com/wordpress/wp-content/uploads/2018/11/Funko-Pop-Purple-Haze-Chase.jpg?q=50&fit=crop&w=740&h=820&dpr=1.5",
+    price: 2480,
+    description: "Limited Edition Chase variant of Jimi Hendrix"
+)
+Item15 = Item.create(
+    user_id: 1,
+    name: "Holo Darth Maul",
+    image: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/11/Funko-Pop-Holographic-Star-Wars-Darth-Maul-bordered.jpg?q=50&fit=crop&w=740&h=723&dpr=1.5",
+    price: 6660,
+    description: "Holographic Darth Maul pop that also glows in the dark from SDCC 2011"
+)
 #Items
 # def items
 #     #url = 'https://api.artic.edu/api/v1/exhibitions?limit=35'

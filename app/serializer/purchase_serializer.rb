@@ -1,7 +1,6 @@
 class PurchaseSerializer < ActiveModel::Serializer
-
-    attributes :id
-    has_many :users 
-    has_many :items
+    attributes :id 
+    has_one :user 
+    has_one :item
 
 end
